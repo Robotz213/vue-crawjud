@@ -43,9 +43,9 @@
             </ul>
           </li>
         </ul>
-        <form role="search">
-          <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
-        </form>
+        <button class="btn btn-secondary" onclick="window.close()">
+          <i class="fa-solid fa-minus"></i>
+        </button>
       </div>
     </div>
   </nav>

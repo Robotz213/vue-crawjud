@@ -1,5 +1,6 @@
 <template>
   <div>
-    <p>Olá, mundo!</p>
+    <button class="btn btn-success">Ping!</button>
   </div>
 </template>
+<style></style>

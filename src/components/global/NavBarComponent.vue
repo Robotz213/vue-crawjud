@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faMinus, faMaximize, faClose } from '@fortawesome/free-solid-svg-icons'
+</script>
+
 <template>
   <nav
     class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top"
@@ -43,8 +48,14 @@
             </ul>
           </li>
         </ul>
-        <button class="btn btn-secondary" onclick="window.close()">
-          <i class="fa-solid fa-minus"></i>
+        <button class="btn btn-secondary m-1" onclick="window.close()">
+          <FontAwesomeIcon :icon="faMinus" />
+        </button>
+        <button class="btn btn-warning m-1">
+          <FontAwesomeIcon :icon="faMaximize" />
+        </button>
+        <button class="btn btn-danger m-1">
+          <FontAwesomeIcon :icon="faClose" />
         </button>
       </div>
     </div>
